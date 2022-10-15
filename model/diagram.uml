@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-190.07768028773145" y="241.65802026833165">pokedex.Measure</node>
+    <node x="108.14996716385332" y="380.1521652335134">pokedex.Lineage</node>
+    <node x="-281.0882757993639" y="-97.36191328648556">pokedex.Shower</node>
+    <node x="349.9559122447742" y="-76.55431205795634">pokedex.Type</node>
+    <node x="101.14996716385332" y="-153.6739991871283">Pokemon</node>
+    <node x="566.8655166231408" y="110.13110960126559">pokedex.Status</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pokemon" target="pokedex.Lineage" relationship="CREATE">
+      <point x="44.978424624734146" y="204.0" />
+      <point x="227.12839178858746" y="285.1311096012656" />
+      <point x="200.64996716385332" y="285.1311096012656" />
+      <point x="15.0" y="-94.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Type" relationship="CREATE">
+      <point x="81.0" y="-157.32920540487447" />
+      <point x="502.35222758659603" y="-107.00320459200276" />
+      <point x="68.39631534182183" y="-138.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Measure" relationship="CREATE">
+      <point x="-81.0" y="125.31208590064267" />
+      <point x="70.77368496630017" y="175.63808671351438" />
+      <point x="70.77368496630017" y="350.65802026833165" />
+      <point x="82.5" y="15.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Status" relationship="CREATE">
+      <point x="81.0" y="50.17079459512553" />
+      <point x="293.5010973752247" y="100.49679540799724" />
+      <point x="293.5010973752247" y="285.1311096012656" />
+      <point x="-73.0" y="15.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Shower" relationship="REALIZATION">
+      <point x="-65.02157537526585" y="204.0" />
+      <point x="117.12839178858746" y="-15.36191328648556" />
+      <point x="63.5" y="0.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Status" relationship="TO_ONE">
+      <point x="81.0" y="35.17079459512553" />
+      <point x="293.5010973752247" y="85.49679540799724" />
+      <point x="293.5010973752247" y="270.1311096012656" />
+      <point x="-73.0" y="0.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Measure" relationship="TO_ONE">
+      <point x="-81.0" y="110.31208590064267" />
+      <point x="70.77368496630017" y="160.63808671351438" />
+      <point x="70.77368496630017" y="335.65802026833165" />
+      <point x="82.5" y="0.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Lineage" relationship="TO_ONE">
+      <point x="29.978424624734146" y="204.0" />
+      <point x="212.12839178858746" y="285.1311096012656" />
+      <point x="185.64996716385332" y="285.1311096012656" />
+      <point x="0.0" y="-94.0" />
+    </edge>
+    <edge source="Pokemon" target="pokedex.Type" relationship="TO_ONE">
+      <point x="81.0" y="-142.32920540487447" />
+      <point x="487.35222758659603" y="-92.00320459200276" />
+      <point x="53.39631534182183" y="-138.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7941952506596306" showDependencies="true" x="206.5000000000001" y="225.00000000000003" />
+  <SelectedNodes>
+    <node>pokedex.Measure</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
