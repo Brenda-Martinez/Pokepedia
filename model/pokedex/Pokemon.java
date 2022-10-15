@@ -1,7 +1,10 @@
-package model;
+package model.pokedex;
 
-import model.pokedex.*;
-import pokedex.*;
+import model.Shower;
+import model.pokedex.pokedata.Lineage;
+import model.pokedex.pokedata.Measure;
+import model.pokedex.pokedata.Status;
+import model.pokedex.pokedata.Type;
 
 public class Pokemon implements Shower {
 

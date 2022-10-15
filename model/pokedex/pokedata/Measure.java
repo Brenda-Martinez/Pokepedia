@@ -1,4 +1,4 @@
-package model.pokedex;
+package model.pokedex.pokedata;
 
 public class Measure {
 
